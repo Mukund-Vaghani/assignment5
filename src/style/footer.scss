@@ -1,0 +1,14 @@
+.footer_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 12px;
+    background-color: black;
+    color: white;
+
+    .footer_links{
+        display: flex;
+        flex-direction: column;
+        line-height: 1.5rem;
+    }
+}

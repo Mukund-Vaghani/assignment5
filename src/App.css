@@ -1,0 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  
+  a.active_class{
+    color: rgb(114,114, 113);
+    border-bottom: 2px solid black;
+}

@@ -1,0 +1,31 @@
+.header_container{
+    display: flex;
+    background-color: aliceblue;
+    justify-content: space-between;
+    padding: 13px 8px;
+
+    .header_logo{
+        cursor: pointer;
+    }
+    
+    .header_menu{
+        display: flex;
+        gap: 1rem;
+        list-style: none;
+
+    >a{
+        text-decoration: none;
+        color: black;
+
+        &:hover{
+            color: rgb(114, 114, 113);
+            }
+        }
+
+            
+    >a.active_class{
+        color: rgb(114, 114, 113);
+        border-bottom: 2px solid black;
+    }
+    }
+}
